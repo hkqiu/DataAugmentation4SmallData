@@ -7,7 +7,7 @@ In addition, the related code and the toolkit – **polyScreen2** are also open 
 
 # *polyScreen2*
 
-**Hard requirements**
+## Hard requirements
 These packages must be available to use polyScreen2:
 ```
   	python=3.9
@@ -21,7 +21,7 @@ These packages must be available to use polyScreen2:
 ```
 
 ## Tutorials
-	An example of property prediction by calling the model is given here: (Don't want to code? Just skip this part and read the following part.)
+An example of property prediction by calling the model is given here: (Don't want to code? Just skip this part and read the following part.)
 ```python
 import glob,os
 import pandas as pd
@@ -49,5 +49,14 @@ model.restore()
 ############Predict#############
 val_pred = model.predict(testset)
 ```
+
+It is convenient to make predictions and conduct structure design directly using polyScreen2 by simply downloading this repository and:
+```
+cd DataAugmentation4SmallData/polyScreen2
+python polyScreen2.py
+```
+The GUI of polyScreen2 is now in your display as follows. One can find the .gif demo at our repo. to help for the usage.
+![image](https://github.com/HKQiu/DataAugmentation4SmallData/assets/73220956/683ba02f-766f-4fe7-9c10-db4e1fe2c6e1)
+
 
 For the usage of **polyScreen2**, please email [hkqiu@ciac.ac.cn](hkqiu@ciac.ac.cn).
