@@ -7,10 +7,8 @@ In addition, the related code and the toolkit – **polyScreen2** are also open 
 
 # *polyScreen2*
 
->>Hard requirements
-
-
-  These packages must be available to use polyScreen2:
+**Hard requirements**
+These packages must be available to use polyScreen2:
   	python=3.9
   	numpy=1.24.3=pypi_0
   	pandas=2.0.1=pypi_0
