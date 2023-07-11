@@ -9,6 +9,7 @@ In addition, the related code and the toolkit – **polyScreen2** are also open 
 
 **Hard requirements**
 These packages must be available to use polyScreen2:
+```
   	python=3.9
   	numpy=1.24.3=pypi_0
   	pandas=2.0.1=pypi_0
@@ -17,11 +18,11 @@ These packages must be available to use polyScreen2:
   	tensorflow-estimator=2.10.0=pypi_0
   	scikit-learn=1.2.2=pypi_0
   	joblib=1.2.0=pypi_0
-
+```
 
 ## Tutorials
 	An example of property prediction by calling the model is given here: (Don't want to code? Just skip this part and read the following part.)
-
+```python
 import glob,os
 import pandas as pd
 import deepchem as dc
@@ -47,6 +48,6 @@ model = dc.models.GraphConvModel(1, mode="regression", model_dir=Restore_MODEL_D
 model.restore()
 ############Predict#############
 val_pred = model.predict(testset)
-` ` ` 
+```
 
 For the usage of **polyScreen2**, please email [hkqiu@ciac.ac.cn](hkqiu@ciac.ac.cn).
