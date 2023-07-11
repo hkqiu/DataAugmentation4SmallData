@@ -15,7 +15,7 @@ from rdkit import Chem
 
 class PolyScreen:
     def __init__(self, master, width=500, height=400):
-        self.master = master  # master就是主页面的意思
+        self.master = master  # master
         self.master.title("polyScreen")
         self.w = width
         self.h = height
@@ -24,13 +24,11 @@ class PolyScreen:
         self.property = tk.StringVar()  # For Inverse Design
         self.dialogue = tk.StringVar()  # For PolyChat
 
-        self.job_path = os.path.dirname(__file__)  # path of current directory
-        # self.MODEL_DIR = 'D:/0研究生/research/1聚酰亚胺Tg/0PI/GNN_model-R2=0.86'
-        self.MODEL_DIR =  r'D:\0研究生\0聚酰亚胺\高分子Tg数据\加入其他高分子数据的影响\Tg\正式实验\模型_选择卷积层\2层\loop1'
+        self.job_path = os.path.dirname(os.path.dirname(__file__))  # path of current directory
+        self.MODEL_DIR =  os.path.join(self.job_path, 'model/ToObtainPredictedValuesofPolyimides')
 
         self.pi_alternative_path = 'D:/0研究生/0聚酰亚胺/高分子Tg数据/加入其他高分子数据的影响/Tg/正式实验/预测筛选/初步筛选的95个PI-350.csv'
 
-        # 创建按钮
         self.button = tk.Button(self.master, text="Properties Prediction", font=('Times New Roman', 25), command=self.__properties_prediction)
         self.button.pack(pady=10)
         self.button = tk.Button(self.master, text="Inverse Design", font=('Times New Roman', 25), command=self.__inverse_design)
