@@ -18,4 +18,35 @@ These packages must be available to use polyScreen2:
   	scikit-learn=1.2.2=pypi_0
   	joblib=1.2.0=pypi_0
 
+
+## Tutorials
+	An example of property prediction by calling the model is given here: (Don't want to code? Just skip this part and read the following part.)
+` ` ` 
+import glob,os
+import pandas as pd
+import deepchem as dc
+import numpy as np
+from rdkit import Chem
+from rdkit.Chem import AllChem
+from rdkit.Chem import Draw, PyMol, rdFMCS
+from rdkit.Chem.Draw import IPythonConsole
+from rdkit import rdBase
+from deepchem import metrics
+from IPython.display import Image, display
+from rdkit.Chem.Draw import SimilarityMaps
+import tensorflow as tf
+
+Val_DATASET_FILE = 'Path/2/your/file.csv'			# .csv
+Restore_MODEL_DIR = ' Path/2/model'
+#####Featurizerization#######
+featurizer = dc.feat.ConvMolFeaturizer()
+loader = dc.data.CSVLoader(tasks=[], feature_field="Smiles", featurizer=featurizer)
+testset = loader.create_dataset(Val_DATASET_FILE, shard_size=10000)
+###########Model##############
+model = dc.models.GraphConvModel(1, mode="regression", model_dir=Restore_MODEL_DIR)
+model.restore()
+############Predict#############
+val_pred = model.predict(testset)
+` ` ` 
+
 For the usage of **polyScreen2**, please email [hkqiu@ciac.ac.cn](hkqiu@ciac.ac.cn).
