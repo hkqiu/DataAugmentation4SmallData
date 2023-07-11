@@ -57,8 +57,7 @@ python polyScreen2.py
 ```
 The GUI of polyScreen2 is now in your display as follows. One can find the .gif demo at our repo. to help for the usage.
 
-![image](https://github.com/HKQiu/DataAugmentation4SmallData/assets/73220956/bbfc3326-f71c-457b-b189-159943c3e34d)
-<img src="https://github.com/HKQiu/DataAugmentation4SmallData/assets/73220956/bbfc3326-f71c-457b-b189-159943c3e34d" alt="polyScreen2 GUI" width="50%">
+<img src="https://github.com/HKQiu/DataAugmentation4SmallData/assets/73220956/bbfc3326-f71c-457b-b189-159943c3e34d" alt="polyScreen2 GUI" width="30%">
 
 
 For the usage of **polyScreen2**, please email [hkqiu@ciac.ac.cn](hkqiu@ciac.ac.cn).
