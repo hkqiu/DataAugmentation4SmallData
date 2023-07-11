@@ -21,7 +21,7 @@ These packages must be available to use polyScreen2:
 
 ## Tutorials
 	An example of property prediction by calling the model is given here: (Don't want to code? Just skip this part and read the following part.)
-` ` ` 
+
 import glob,os
 import pandas as pd
 import deepchem as dc
