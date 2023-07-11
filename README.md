@@ -50,7 +50,7 @@ model.restore()
 val_pred = model.predict(testset)
 ```
 
-It is convenient to make predictions and conduct structure design directly using polyScreen2 by simply downloading this repository and:
+It is **convenient** to make predictions and conduct structure design directly using **polyScreen2** by simply downloading this repository and:
 ```
 cd DataAugmentation4SmallData/polyScreen2
 python polyScreen2.py
