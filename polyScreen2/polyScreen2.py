@@ -27,7 +27,7 @@ class PolyScreen:
         self.job_path = os.path.dirname(os.path.dirname(__file__))  # path of current directory
         self.MODEL_DIR =  os.path.join(self.job_path, 'model/ToObtainPredictedValuesofPolyimides')
 
-        self.pi_alternative_path = 'D:/0研究生/0聚酰亚胺/高分子Tg数据/加入其他高分子数据的影响/Tg/正式实验/预测筛选/初步筛选的95个PI-350.csv'
+        self.pi_alternative_path = 'PATH/TO/ALTERNATIVE/csv'
 
         self.button = tk.Button(self.master, text="Properties Prediction", font=('Times New Roman', 25), command=self.__properties_prediction)
         self.button.pack(pady=10)
@@ -40,14 +40,6 @@ class PolyScreen:
         # ©2023 Sun's AI4P Workshop. All rights reserved.
         # Email: zysun@ciac.ac.cn
         # """
-        # lb = tk.Label(root, text=author,  # 设置文本内容
-        #               font=('Times New Roman', 18),  # 设置字体：微软雅黑，字号：18
-        #               fg='white',  # 设置前景色：白色
-        #               bg='grey',
-        #               padx=0,  # 设置x方向内边距：20
-        #               pady=0
-        #                 )  # 设置y方向内边距：10
-        # lb.pack(side=tk.BOTTOM)
 
         text = tk.Text(root, height=3)
         text.pack(side=tk.BOTTOM)
@@ -67,8 +59,6 @@ class PolyScreen:
         combobox = tk.Menu(menu, tearoff=0)
         menu.add_cascade(label='Links', menu=combobox)  # 在菜单栏添加下拉菜单
 
-        # 在下拉菜单添加各个网站链接
-        # Lambda的使用: Lambda xx:xx 左边为定义,右边为执行语句
         combobox.add_command(label='Github',
                              command=lambda: webbrowser.open('https://github.com/HKQiu/DataEnhancement4SmallData'))
         combobox.add_command(label='Tutorial',
