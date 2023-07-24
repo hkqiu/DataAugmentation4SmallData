@@ -8,7 +8,6 @@ dir_path = os.path.dirname(__file__)
 dependency_path = os.path.join(dir_path, 'dependency')
 sys.path.insert(0, dependency_path)
 import deepchem as dc
-# print(f"deepchem路径:{dc.__file__}")
 import pandas as pd
 from rdkit import Chem
 
