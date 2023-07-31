@@ -57,7 +57,7 @@ model.restore()
 val_pred = model.predict(testset)
 ```
 
-It is <span style="color:blue">convenient</span> to make predictions and conduct structure design directly using <span style="color:red">polyScreen2</span> by simply downloading this repository and:
+It is **convenient** to make predictions and conduct structure design directly using <span style="color:red">polyScreen2</span> by simply downloading this repository and:
 
 ```
 cd DataAugmentation4SmallData/polyScreen2
