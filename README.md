@@ -10,10 +10,15 @@ This is the 2nd part of project PPP-Prediction Properties of Polymers from Sun's
 **All data and code** about model training and polyScreen software are in this repository.
 
 [ablation](https://github.com/HKQiu/DataAugmentation4SmallData/tree/main/ablation): The ablation results of random split.
-[ablation](https://github.com/HKQiu/DataAugmentation4SmallData/tree/main/gene): The gene fragments of each datasets.
+
+[gene](https://github.com/HKQiu/DataAugmentation4SmallData/tree/main/gene): The gene fragments of each datasets.
+
 [model](https://github.com/HKQiu/DataAugmentation4SmallData/tree/main/model): The data used to train the models mentioned in this work can be found at /model, and the weights of the optimal model can also be found. 
+
 [notebooks](https://github.com/HKQiu/DataAugmentation4SmallData/tree/main/notebooks): The experimental codes for training, inference, visualization and data analysis in **.ipynb** format.
+
 [polyScreen2](https://github.com/HKQiu/DataAugmentation4SmallData/tree/main/polyScreen2): The related code and the toolkit – **polyScreen2**.
+
 [src](https://github.com/HKQiu/DataAugmentation4SmallData/tree/main/src): The original polyimides candidates.
 
 # *polyScreen2*--Streamlined Property Prediction and Inverse Design with Conversational AI
