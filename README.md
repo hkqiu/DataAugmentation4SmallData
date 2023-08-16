@@ -7,7 +7,7 @@
 
 # Data Augmentation Graph Neural Network (DAGNN) for Polymer Property Prediction and Inverse Design
 
-This is the repo. of this paper "A Head-on Solution to the Small Dataset Challenge in Polymer Materials Design using Data Augmentation". This work features a chemistry-based solution that cleverly addresses the long-standing challenge of small datasets in polymer machine learning modeling, which has achieved SOAT model performance.
+This is the repo. of this paper "**A Head-on Solution to the Small Dataset Challenge in Polymer Materials Design using Data Augmentation**". This work features a chemistry-based solution that cleverly addresses the long-standing challenge of small datasets in polymer machine learning modeling, which has achieved SOAT model performance.
 
 **All data and code** about model training and polyScreen software are in this repository.
 
