@@ -3,7 +3,7 @@ There are the experimental codes for training, inference, visualization and data
 # Part 1. Training
 We have placed the training code in this file (train.ipynb) for the convenience of interested researchers to reproduce and use. 
 
-Please note that we have tried multiple combinations of hyperparameters, but for the sake of brevity, we are showcasing the example with the best-performing set of hyperparameters.
+Please note that we have tried multiple combinations of hyperparameters, but for the sake of brevity, we are showcasing the example with the one set of hyperparameters (not the best).
 
 
 # Part 2. Inference
@@ -23,4 +23,6 @@ We calculated the synthetic accessibility score (SAscore) for the candidate mole
 
 In addition, we also calculated the number of rotatable bonds and the number of rings for the candidate molecules, which helps us gain deeper physical insights. The code for this part can be found in the "Rot2Ring.ipynb" file.
 
+**Of note**
+Due to the extensive amount of data used in our experiments, if there are any parts of interest that we may have overlooked, please feel free to contact hkqiu@ciac.ac.cn or the corresponding author zysun@ciac.ac.cn. We would be happy to provide further information or address any inquiries you may have.
 
