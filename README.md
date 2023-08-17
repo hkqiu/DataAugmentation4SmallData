@@ -79,10 +79,10 @@ It is **convenient** to make predictions and conduct structure design directly u
 cd DataAugmentation4SmallData/polyScreen2
 python polyScreen2.py
 ```
-The GUI of polyScreen2 is now in your display as follows. One can find the .gif demo at our repo. to help for the usage.
+The GUI of polyScreen2 is now in your display as follows. One can find the .gif demos at [/polyScreen2/demo](https://github.com/HKQiu/DataAugmentation4SmallData/tree/main/polyScreen2/demo) of our repo. to help for the usage.
 
 <p align="center">
-  <img src="https://github.com/HKQiu/DataAugmentation4SmallData/assets/73220956/bbfc3326-f71c-457b-b189-159943c3e34d" width="50%">
+  <img src="https://github.com/HKQiu/DataAugmentation4SmallData/assets/73220956/bbfc3326-f71c-457b-b189-159943c3e34d" width="40%">
 </p>
 
 By the way, our hugging face space is coming, where you can use polyScreen2 easily.
