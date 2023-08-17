@@ -87,15 +87,20 @@ It is **convenient** to make predictions and conduct structure design directly u
 cd DataAugmentation4SmallData/polyScreen2
 python polyScreen2.py
 ```
-The GUI of polyScreen2 is now in your display as follows. One can find the .gif demos at [/polyScreen2/demo](https://github.com/HKQiu/DataAugmentation4SmallData/tree/main/polyScreen2/demo) of our repo. to help for the usage.
+The GUI of polyScreen2 is now in your display as follows. 
 
 
 <p align="center">
   <img src="https://github.com/HKQiu/DataAugmentation4SmallData/assets/73220956/bdd9603e-b25c-445e-89f0-c9ebd23bf175" width="40%">
 </p>
 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-By the way, our hugging face space is coming, where you can use polyScreen2 easily.
+**Here are two demos of polyScreen2** for demonstration purposes, and one can find other .gif demos at [/polyScreen2/demo](https://github.com/HKQiu/DataAugmentation4SmallData/tree/main/polyScreen2/demo) of our repo. to help for the usage of other functions.
+![Property Prediction](https://github.com/HKQiu/DataAugmentation4SmallData/blob/main/polyScreen2/demo/1prediction.gif)
+![PolyChat](https://github.com/HKQiu/DataAugmentation4SmallData/blob/main/polyScreen2/demo/3chat_predict.gif)
+
+By the way, our hugging face space is coming, where you can use polyScreen2 more easily.
 
 # Acknowledgments
 We would like to express our gratitude to the authors and research team of the article ["Machine learning enables interpretable discovery of innovative polymers for gas separation membranes"](https://www.science.org/doi/10.1126/sciadv.abn9545) for their inspiring insights and providing valuable data for our virtual design of polyimides.
