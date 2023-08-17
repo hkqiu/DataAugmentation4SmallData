@@ -87,4 +87,8 @@ The GUI of polyScreen2 is now in your display as follows. One can find the .gif 
 
 By the way, our hugging face space is coming, where you can use polyScreen2 easily.
 
-Any issue on the usage of **polyScreen2**, please email [hkqiu@ciac.ac.cn](hkqiu@ciac.ac.cn).
+# Acknowledgments
+We would like to express our gratitude to the authors and research team of the article ["Machine learning enables interpretable discovery of innovative polymers for gas separation membranes"](https://www.science.org/doi/10.1126/sciadv.abn9545) for their inspiring insights and providing valuable data for our virtual design of polyimides.
+
+# Q&A
+Any issue on this article or the usage of **polyScreen2**, please email [hkqiu@ciac.ac.cn](hkqiu@ciac.ac.cn).
