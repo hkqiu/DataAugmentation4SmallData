@@ -1,0 +1,1 @@
+Since installing the dependencies may take some time, we have pre-saved some demos of using polyScreen2. Please refer to the [demo](https://github.com/HKQiu/DataAugmentation4SmallData/tree/main/polyScreen2/demo) directory for more details.
