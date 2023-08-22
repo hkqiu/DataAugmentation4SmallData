@@ -1,7 +1,8 @@
 
 <p align="center">
-  <img src="https://github.com/HKQiu/DataAugmentation4SmallData/assets/73220956/d7a243ed-6cd8-42e2-92c3-56a33f4d3c84" width="50%">
+  <img src="https://github.com/HKQiu/DataAugmentation4SmallData/assets/73220956/3e3d583e-0aa3-4e65-8262-69641270fe10" width="50%">
 </p>
+
 
 
 # A Head-on Solution to the Small Dataset Challenge in Polymer Materials Design using Data Augmentation
@@ -106,4 +107,8 @@ By the way, our hugging face space is coming, where you can use polyScreen2 more
 We would like to express our gratitude to the authors and research team of the article ["Machine learning enables interpretable discovery of innovative polymers for gas separation membranes"](https://www.science.org/doi/10.1126/sciadv.abn9545) for their inspiring insights and providing valuable data for our virtual design of polyimides.
 
 # Q&A
+
 Any issue on this article or the usage of **polyScreen2**, please email [hkqiu@ciac.ac.cn](hkqiu@ciac.ac.cn).
+<p align="center">
+  <img src="https://github.com/HKQiu/DataAugmentation4SmallData/assets/73220956/d7a243ed-6cd8-42e2-92c3-56a33f4d3c84" width="50%">
+</p>
