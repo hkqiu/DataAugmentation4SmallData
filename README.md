@@ -27,7 +27,7 @@ This is the repo. of this paper "**A Head-on Solution to the Small Dataset Chall
 
 [gene](https://github.com/HKQiu/DataAugmentation4SmallData/tree/main/gene): The gene fragments of each datasets.
 
-[model](https://github.com/HKQiu/DataAugmentation4SmallData/tree/main/model): The data used to train the models mentioned in this work can be found at /model, and the weights of the optimal model can also be found. 
+[model](https://github.com/HKQiu/DataAugmentation4SmallData/tree/main/model): The data used to train the models mentioned in this work can be found at /model, and the model for **PI-0** can also be found with all ensemble GNN_enhanced models for further polymer design at/model/AllModels. 
 
 [notebooks](https://github.com/HKQiu/DataAugmentation4SmallData/tree/main/notebooks): The experimental codes for training, inference, visualization and data analysis in **.ipynb** format.
 
