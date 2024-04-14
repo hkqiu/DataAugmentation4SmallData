@@ -5,7 +5,7 @@
 
 
 
-# A Head-on Solution to the Small Dataset Challenge in Polymer Materials Design using Data Augmentation
+# Heat-Resistant Polymer Discovery by Utilizing Interpretable Graph Neural Network with Small Data
 
 <p align="center">
   <img src="https://github.com/HKQiu/DataAugmentation4SmallData/assets/73220956/30627904-43b3-4f89-a605-b274a3530365" width="75%">
@@ -19,7 +19,7 @@
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-This is the repo. of this paper "**A Head-on Solution to the Small Dataset Challenge in Polymer Materials Design using Data Augmentation**". This work features a chemistry-based solution that cleverly addresses the long-standing challenge of small datasets in polymer machine learning modeling, which has achieved SOAT model performance.
+This is the repo. of this paper "**Heat-Resistant Polymer Discovery by Utilizing Interpretable Graph Neural Network with Small Data**" on [Macromolecules](https://pubs.acs.org/doi/10.1021/acs.macromol.4c00508). This work features a chemistry-based solution that cleverly addresses the long-standing challenge of small datasets in polymer machine learning modeling, which has achieved SOAT model performance.
 
 **All data and code** about model training and polyScreen software are in this repository.
 
